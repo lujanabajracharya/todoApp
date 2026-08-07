@@ -1,4 +1,4 @@
-import Todo from "./Todo.js";
+import {Todo} from "./Todo.js";
 import User from "./User.js";
 
 User.hasMany(Todo, { foreignKey: "userId" });
