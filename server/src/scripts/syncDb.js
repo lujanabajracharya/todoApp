@@ -1,6 +1,5 @@
 import { sequelize } from "../configs/database.js";
-import "../models/Todo.js";
-import "../models/User.js";
+import "../models/index.js";
 
 const run = async () => {
   try {
